@@ -1,5 +1,7 @@
 package solid.dip;
 
+import java.util.List;
+
 public class ReportItem{
     private String description;
     private float amount;
@@ -14,4 +16,6 @@ public class ReportItem{
     public float getAmount(){
         return amount;
     }
+
+
 }
